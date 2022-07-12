@@ -41,8 +41,6 @@
                             <configLocation>${project.basedir}/.github/linters/sun_checks.xml</configLocation>
                             <encoding>UTF-8</encoding>
                             <consoleOutput>true</consoleOutput>
-                            <failsOnError>false</failsOnError>
-                            <failOnViolation>true</failOnViolation>
                         </configuration>
                     </execution>
                 </executions>
