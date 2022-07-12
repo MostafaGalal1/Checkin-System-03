@@ -2,7 +2,7 @@ enum Seat_Class {
     ECONOMY, PREMIUM_ECONOMY, BUSINESS, FIRST_CLASS
 }
 
-public class Seat {
+public class Seat{
     private String seatNo;
     private Seat_Class seatClass;
     public String getSeatNo() {
