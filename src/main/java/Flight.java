@@ -7,22 +7,22 @@ public class Flight {
     private String arrival;
     private List<Seat> seats;
 
-    public void setFlightCode(String _flightCode) { flightCode = _flightCode; }
+    public void setFlightCode(String flightCode) { this.flightCode = flightCode; }
 
-    public void setDuration(int _duration){
-        duration = _duration;
+    public void setDuration(int duration){
+        this.duration = duration;
     }
 
-    public void setArrival(String _arrival){
-        arrival = _arrival;
+    public void setArrival(String arrival){
+        this.arrival = arrival;
     }
 
-    public void setDeparture(String _departure){
-        departure = _departure;
+    public void setDeparture(String departure){
+        this.departure = departure;
     }
 
-    public void setSeats(List<Seat> _seats){
-        seats = _seats;
+    public void setSeats(List<Seat> seats){
+        this.seats = seats;
     }
 
     public String getFlightCode() {
