@@ -6,7 +6,8 @@ public class Testing {
     private final Seat seat_test = new Seat();
 
     @Test
-    public void test_FlightCode(){
+
+     public void test_FlightCode()       {
         flight_test.setFlightCode("CA3442");
         String flightCode = flight_test.getFlightCode();
         Assert.assertEquals(flightCode, "CA3442");
