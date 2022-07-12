@@ -6,9 +6,8 @@ public class Flight {
     private String departure;
     private String arrival;
     private List<Seat> seats;
-    public void setFlightCode(String _flightCode){
-        flightCode = _flightCode;
-    }
+
+    public void setFlightCode(String _flightCode) { flightCode = _flightCode; }
 
     public void setDuration(int _duration){
         duration = _duration;
